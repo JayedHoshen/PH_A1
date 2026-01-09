@@ -202,3 +202,57 @@
   line-height: 20px;
   font-weight: 400;
 }
+
+/* ----- brain css ----- */
+#brain-section {
+  padding: 120px 0;
+}
+
+#brain-section .brain-container {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brain-container .brain-right {
+  padding-right: 200px;
+}
+
+.brain-container .brain-right h3 {
+  color: #30b868;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.brain-container .brain-right h2 {
+  color: #001931;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.brain-container .brain-right p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.brain-container .brain-right ul li {
+  color: #001931;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  list-style: none;
+}
+
+.brain-container .brain-right ul li i {
+  color: #30b868;
+}
