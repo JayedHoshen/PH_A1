@@ -128,3 +128,77 @@
   gap: 16px;
   justify-content: center;
 }
+
+/* ----- notes css ----- */
+#notes-section {
+  padding-top: 36px;
+}
+
+#notes-section .notes-title {
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+#notes-section .notes-title h2 {
+  color: #001931;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+#notes-section .notes-title p {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#notes-section .notes-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+#notes-section .notes-card {
+  max-width: 322px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 70px 24px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  box-shadow: 0 0 8px 0 #0000009a;
+}
+
+#notes-section .notes-card:hover {
+  border: 1px solid #30b868;
+  box-shadow: 0 0 0px 0 #0000009a;
+}
+
+#notes-section .notes-card .icon {
+  width: 60px;
+  height: 60px;
+  background-color: #f95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#notes-section .notes-card h4 {
+  color: #001931;
+  margin: 16px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#notes-section .notes-card p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
